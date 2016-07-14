@@ -1,0 +1,47 @@
+
+
+table {
+    border-collapse: collapse;
+    border: none;
+}
+
+table tr{
+    height: 30px !important;
+}
+
+table td .acciones_tabla{
+    width:100%;
+}
+
+table td .acciones_tabla .img_ver{
+    width:30px;
+    height:30px;
+    background-image: url("./iconos/ver.gif");
+    background-size: 30px;
+}
+
+table td .check_tabla .img_check{
+    width:20px;
+    height:20px;
+    background-image: url("./iconos/checkbox.png");
+    background-size: 40px;
+    background-position: -20px 0;
+}
+
+table td .check_tabla .img_check.select{	
+    background-position: 0 0;
+}
+
+
+.datos tr:hover{
+    cursor: pointer;
+    background-color: #d5d5ff!important;
+}
+
+.datos .par {
+
+}
+
+.datos .impar {
+    background-color: #e6f2ff;
+}

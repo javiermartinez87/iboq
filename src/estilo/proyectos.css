@@ -1,0 +1,197 @@
+.capitulo{
+    width: 90%;
+    margin:auto;
+    margin-top: 20px;
+    height: 50px;
+    border: 1px solid #004284;
+    border-radius: 10px;	
+    overflow:hidden;	
+}
+
+.capitulo.rojo{
+    border: 1px solid #FF0000;
+}
+
+.capitulo.rojo .cabecera{
+    background-color: #FF0000;
+}
+
+.capitulo .cabecera{
+    height: 50px;
+    width:100%;	
+    cursor: pointer;
+    vertical-align:middle;
+    font-size: 25px;
+    background-color: #004284;
+    color: #FFFFFF;
+}
+
+.capitulo .titulo{
+    float:left;
+    line-height:50px;	
+    height: 50px;
+    text-align:left;
+    margin-left:30px;
+    font-weight: bold;
+}
+
+.capitulo .datos{
+    border-left: 2px solid #cae4ff;
+    float:right;
+    width: 300px;
+    line-height:25px;	
+    height: 50px;		
+    text-align:left;
+    font-size: 15px;
+    text-align:center;
+}
+
+.capitulo.abierto{
+    height: auto;
+}
+
+.subcapitulo.abierto{
+    height: auto;
+}
+
+
+.subcapitulos .cabecera{	
+    height: 40px;
+    background-color: #cae4ff;
+    color: #004284;
+    border-bottom: 1px solid #004284;	
+}
+
+.rojo .subcapitulos .cabecera{	
+    height: 40px;
+    background-color: #ffF3F3;
+    color: #FF0000;
+    border-bottom: 1px solid #FF0000;	
+}
+
+
+.subcapitulos{			
+    clear:both;
+    width: 100%;
+}
+
+.subcapitulo.no_cargado{
+    background-color: #CCCCCC;
+}
+
+.subcapitulo{
+    width: 90%;
+    float:right;
+    height: 40px;
+    border-left: 1px solid #004284;
+    border-bottom: 1px solid #004284;
+    overflow:hidden;	
+}
+
+.rojo .subcapitulo{
+    border-left: 1px solid #FF0000;
+    border-bottom: 1px solid #FF0000;
+}
+
+.subcapitulo .titulo{	
+    line-height:40px;	
+    height: 40px;
+    font-size: 20px;		
+
+}
+
+.subcapitulo .datos{	
+    border-left: 2px solid #004284;
+    line-height:20px;	
+    height: 40px;
+    font-size: 20px;
+    font-size: 12px;
+}
+
+.rojo .subcapitulo .datos{	
+    border-left: 2px solid #F00;
+}
+
+.rojo .partida {
+    border-bottom: 1px solid #FF0000;
+}
+
+ .partida, .partidab {
+    border-bottom: 1px solid #004284;
+}
+
+.partidab .cantidades{border-top: 1px solid #004284;}
+
+ .partida .cantidades{
+    clear:both;
+    height: 40px;
+    width: 100%;
+    background-color: #fdfed3;
+    border-top: 1px solid #fbd973;
+}
+
+ .partida .cantidades div{
+    width:33%;
+    float:left;
+    text-align:center;
+}
+
+.partida .selector_c_s{
+    width:100%;
+    height:30px;
+
+}
+
+.partida .select_scap, .partida .select_cap{
+    background: url("./iconos/f_abajo.jpg");
+    background-repeat: no-repeat;
+    background-size: 28px;
+    background-position: 270px 1px;
+    float:left;
+    width:300px;
+    background-color: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    height: 30px;
+    overflow: hidden;
+    line-height:30px;
+    background-color: #FFFFFF;
+}
+
+.partida .select_scap .opciones, .partida .select_cap .opciones{
+    width:300px;  
+    height:auto;
+    max-height:150px;
+    overflow-y:scroll; 
+    position:absolute;
+}
+
+.partida .opciones.abierto, .partida .select_cap .opciones.abierto{
+
+    height:auto;
+    max-height:150px;
+    overflow-y:scroll;  
+}
+
+.partida .select_scap .opcion, .partida .select_cap .opcion{
+    background-color: #FFFFFF;
+    width:100%;
+    border-bottom: 1px solid #DDDDDD;
+    cursor: pointer;
+}
+
+.partida .select_scap .noselect, .partida .select_cap .noselect{
+    color:#AAAAAA;font-weight:bold;   
+}
+
+
+.partida .select_scap .opcion:hover, .partida .select_cap .opcion:hover{
+    width:100%;
+    border-bottom: 1px solid #DDDDDD;
+    background-color: #7A9DBF;
+    color: #FFFFFF;
+}
+
+.partida .destacada{
+    font-weight:bold;
+    color: #004284;
+}

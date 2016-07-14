@@ -1,0 +1,72 @@
+body{
+ background:  rgba(0, 0, 0, 0) url("/estilo/img/fondo.png");
+}
+.center{position:relative;margin:auto;  max-width:600px;
+	width:80%;height:100%;}
+.formu_login h3{margin-bottom:5px;}
+
+.fondo_login{
+    background-image:  url("./img/logo.png");
+     background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 60% auto;
+     height:100%;
+	 border-right: 3px solid #3F51B5;
+}
+
+.formu_login{
+   width:100%;
+    height: 340px;
+    background-color: #AAAAAA;   
+    background-color: rgba(255, 255, 255, 0.5);
+	position:absolute;
+	top: calc(50% - 190px);
+	border-radius: 8px;
+}
+
+#form_subir{
+	max-width:300px;
+	margin:auto;
+}
+
+.formu_login h3{
+    width: 100%;
+    text-align:center;
+	color: #3F51B5;
+}
+
+.formu_login input[type=text],.formu_login input[type=password],.formu_login input[type=email]{
+    height: 30px;
+    width: 200px;
+    margin-left:50px;
+    background-color: rgba(207, 216, 220, 1);
+    border: 1px solid #CCCCCC;
+    font-size: 16px;
+    padding-left: 20px;
+    color: #666666;
+}
+
+.formu_login input[type=submit]{
+    height: 30px;
+    width: 100px;
+    margin-left:100px;
+    margin-top:20px;
+    color: #FFFFFF;
+    border:none;
+    border-radius: 20px;
+    font-weight: bold;
+	
+	background-image: linear-gradient(to bottom, #3f51b5 50%,#00bcd4  50%);
+    background-size: 100% 200%;
+    text-transform: uppercase;
+  -webkit-transition: background-position 0.7s ease 0s;
+  -moz-transition: background-position 0.7s ease 0s;
+  -o-transition: background-position 0.7s ease 0s;
+  transition: background-position 0.7s ease 0s;
+}
+
+.formu_login input[type=submit]:hover{
+    background-position: 0 100%;
+}
+
+
