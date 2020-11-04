@@ -6,7 +6,7 @@ i-BoQ es un software no comercial desarrollado en php con arquitectura cliente-s
 
 <ol>
     <li>Instalar servidor web apache (https://httpd.apache.org/download.cgi)</li>
-    <li>Configurar el servidor con PHP5.4</li>
+    <li>Configurar el servidor con PHP7</li>
     <li>Instalar mysql</li>
     <li>Crear una base de datos con el fichero localizado en la carpeta fuente src en "sql/iboq.sql"</li>
     <li>Crear un usuario con contraseña en MD5 en la tabla "usuario"</li>
