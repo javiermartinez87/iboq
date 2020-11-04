@@ -2,6 +2,13 @@
 
 i-BoQ es un software no comercial desarrollado en php con arquitectura cliente-servidor cuya principal contribución es la gestión integral de la información contenida en el documento del presupuesto de proyectos de edificación. Para este propósito, i-BoQ dispone de tres módulos: adquisición, edición y recuperación. El módulo de adquisición hace posible cargar datos provenientes del documento del presupuesto y almacenarlos en un repositorio común estructurado, independientemente de la estructura y la descripción lingüística del documento. La clasificación se realiza mediante el uso de un modelo de agregación multi-criterio. El módulo de edición, a su vez, proporciona funciones de validación y edición fáciles de usar para los datos importados, mientras que el módulo de recuperación permite un acceso fácil a la información almacenada.
 
+Más detalles sobre i-BoQ se encuentra en el artículo:
+<ul>
+    <li> María Martínez-Rojas, Nicolás Marín, María Amparo Vila Miranda:
+    'An intelligent system for the acquisition and management of information from bill of quantities in building projects'. 
+    Expert Systems with Applications, 63: 284-294 (2016) DOI: https://doi.org/10.1016/j.eswa.2016.07.011 </li>
+</ul>
+
 # Instalación
 
 <ol>
@@ -19,6 +26,7 @@ i-BoQ es un software no comercial desarrollado en php con arquitectura cliente-s
     <li>El archivo principal es index.php</li> 
 </ol>
 
-Descarga: https://github.com/javiermartinez87/iboq/releases/download/2.0/iboq_v2.0.exe
+Descarga última versión (v2.0): https://github.com/javiermartinez87/iboq/releases/download/2.0/iboq_v2.0.exe
 
+--------------------------------------------
 María Martínez Rojas y Javier Martínez Rojas
