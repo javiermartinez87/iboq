@@ -19,4 +19,6 @@ i-BoQ es un software no comercial desarrollado en php con arquitectura cliente-s
     <li>El archivo principal es index.php</li> 
 </ol>
 
+Descarga: https://github.com/javiermartinez87/iboq/releases/download/2.0/iboq_v2.0.exe
+
 María Martínez Rojas y Javier Martínez Rojas
